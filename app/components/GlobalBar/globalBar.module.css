@@ -1,0 +1,29 @@
+.bar_wrapper {
+    background-color: rgb(7, 15, 15);
+    display: flex;
+  }
+  
+  .bar_container {
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .bar_link {
+    margin-right: 20px;
+    padding: 16px;
+    margin-right: 4px;
+    display: flex;
+    align-items: center;
+  }
+
+  .bar_link > a {
+    color:white;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  
+  

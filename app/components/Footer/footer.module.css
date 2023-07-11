@@ -1,0 +1,17 @@
+.container {
+    padding-top: 40px;
+     background-color: rgb(45, 57, 167);
+  }
+  
+  .wrapper {
+    padding-left: 30px;
+  }
+  .link_container{
+    display: flex;
+    flex-direction: row;
+    @media (max-width:767px) {
+  flex-direction: column;
+    }
+  }
+  
+  

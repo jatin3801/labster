@@ -1,0 +1,21 @@
+.container {
+    width: 100%;
+    position: relative;
+  }
+  
+  .heading {
+    font-size: 30px;
+    color:white;
+  }
+  
+  .single_item {
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  
+  .single_item:hover {
+    color: #ffffffdc;
+  }
+  

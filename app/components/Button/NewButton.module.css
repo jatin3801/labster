@@ -1,0 +1,28 @@
+.button {
+    background-color: var(--primary-color);
+    color: blue;
+    padding: 16px 24px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1.25rem;
+    font-weight: var(--bold-font);
+    box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.08),
+      inset 0 0 0 2px rgba(255, 255, 255, 0.12);
+  }
+  
+  .button:hover {
+    background-color: white;
+    box-shadow: 0 1px 16px rgba(0, 111, 204, 0.2),
+      0 12px 24px rgba(0, 111, 204, 0.2), inset 0 0 0 2px rgba(0, 0, 0, 0.14),
+      inset 0 0 0 2px rgba(255, 255, 255, 0.11);
+  }
+  
+  .button:active {
+    background-color:white;
+    box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.14),
+      inset 0 0 0 2px rgba(255, 255, 255, 0.11);
+  }
+  
+  
+  
